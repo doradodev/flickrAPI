@@ -1,0 +1,23 @@
+{
+  "name": "flickrapi",
+  "version": "1.0.0",
+  "description": "Flickr api ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Dorado",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "restler": "^3.4.0",
+    "winston": "^3.1.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
